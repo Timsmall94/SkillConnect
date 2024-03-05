@@ -10,7 +10,7 @@ app = FastAPI()
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
 
-# Connect to SQLite3 or PostgreSQL database
+# Connect to SQLite3 
 database = Database(DATABASE_URL)
 
 
