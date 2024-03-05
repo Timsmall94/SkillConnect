@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from databases import Database
+from database import Database
 import sqlite3
 import os
 
